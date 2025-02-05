@@ -36,7 +36,7 @@ margin-left: 5px;}
 width: 600px;
 background-color: ffffff;
 border-radius: 8px;
-margin: 150px auto 0px;}
+margin: 0px auto 0px;}
 
 .row{display: flex;
 align-items: center;
@@ -56,6 +56,7 @@ padding-left:5px;}
 .main-photos{height: 200px;
 width: 200px;}
 
+/*the boxes*/
 .features{display: flex;
     flex-wrap: nowrap;
       flex-direction: column;
@@ -67,32 +68,56 @@ width: 200px;}
     .features > div {
       max-height: 200px;
       height: 50%;
-      width:500px;
+      width:1000px;
       padding:15px;
       border-style: solid;
       display: flex;
       flex-direction: row;
       align-items: center;
-    border-radius: 5px;
+    border-radius: 25px;
   margin-bottom: 70px;}
     
     /*hover thing*/
     .features > div:hover {max-height:300px;
-    width:600px;}
+    width:1200px;}
     
     /*also feature content*/
-    .features > div > h3 {font-size: 25px;
+    .features > div > h3 {font-size: 45px;
     text-align: center;
-  padding-right: 15px;}
+  padding-right: 25px;
+padding-left: 20px;
+font-family:Georgia;}
     .features > div > img {
     border-style: solid;
     border-radius: 10px;}
-    .features > div > p {padding:7px 15px;}
+    .features > div > p {padding:7px 15px;
+    font-size: 170%;}
 .features > div > p > br{  display: block;
   margin-bottom: 2px;
   font-size:2px;
   line-height: 2px;}
 
-
+  /*top text*/
+.intro {
+  text-align: center;
+  font-family: verdana;
+  text-decoration: underline;
+margin-bottom: 50px;
+}
     
+/*each bg color*/
+.features > .pancakebg {
+  background-color: bisque;
+}
 
+.features > .wafflebg{background-color: beige;}
+
+.features > .pbjbg{background-color:violet;}
+.features > .caesarbg{background-color: chartreuse;}
+
+.features > .spaghettibg{background-color:darkorange;}
+.features > .grilledchickenbg{background-color: burlywood;}
+
+.features > .breakfastbg {background-color: antiquewhite;}
+.features > .lunchbg {background-color: deepskyblue;}
+.features > .dinnerbg {background-color: darkmagenta;}
