@@ -5,7 +5,9 @@ padding-left: 15px;
 padding-right:15px;
 margin-top: -20px;
 }
-.bardiv{display:flex;align-items: center;justify-content: space-between;
+.bardiv{display:flex;
+  align-items: center;
+  justify-content: space-between;
 margin:20px;
 }
 .head{font-size:50px;
@@ -121,3 +123,71 @@ margin-bottom: 50px;
 .features > .breakfastbg {background-color: antiquewhite;}
 .features > .lunchbg {background-color: deepskyblue;}
 .features > .dinnerbg {background-color: darkmagenta;}
+
+.recipe-boxes {display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+flex-wrap: nowrap;}
+
+.recipe-boxes > div {border-style: solid;
+margin: 35px auto;
+width:600px;
+border-radius: 20px;
+background-color: rgb(250, 250, 250);
+padding: 20px;
+}
+.recipe-boxes > div > ul {font-size: 130%; 
+  font-family: verdana;
+}
+.recipe-boxes > div > ol {font-size: 130%; 
+font-family: verdana;
+}
+.recipe-boxes > div > h3 {font-size: 150%;
+font-family: Tahoma;
+text-align: center;}
+
+.cite {margin-top: 100px;
+text-align: center;}
+
+.tittle{font-family: georgia;
+text-align: center;
+font-size: 250%;}
+.photos{border-style: solid;
+width: 350px;
+height: 250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+border-width: 10px;}
+
+.q1{font: size 15px;
+  font-family:calibri;
+  margin:0px;
+  color:cornflowerblue;
+  text-align: center;
+  font-weight:bolder;
+
+  }
+  .q1 > ul > li{list-style: none;
+  margin: 15px;
+  display: block;
+padding: 10px;
+background-color: cornflowerblue;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+  }
+  .q > ul > li > a{color: black;
+    font-family: Verdana;
+    text-decoration: none;
+
+  }
+
+  .q1 > ul > li:hover {width: 120px;}
+
+  a {text-decoration: none;
+    color: black;
+}
